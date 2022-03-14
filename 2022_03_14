@@ -1,0 +1,16 @@
+'''
+print('hello');
+print("hello");
+
+print( "he's name is 철수" )
+print( 'he said "I am OK!" ' )
+
+print( "He said \"I am OK!\" ")
+'''
+'''
+print("a" * 10)
+'''
+print("=" * 24)
+print("He said \"Python is Easy\" ")
+print("34256 곱하기 2365는",34256*2365, "입니다.") 
+print("=" * 24)
