@@ -78,3 +78,34 @@ print(d.index('c'))
 #인덱스 2번에 정수 30 끼어넣기
 d.insert(2,30)
 print(d)
+
+a = [3, 5, 1, 2, 6]
+#a의 요소 정렬하기
+a.sort()
+print(a)
+
+b = [3, 5, 1, 2, 6]
+#b 요소의 순서 뒤집기
+b.reverse()
+print(b)
+
+c = b [-1:-1]
+print(c)
+
+a= [1,2,3]
+b= a;
+
+print(a)
+print(b)
+
+#c가 가리키는 리스트를 복사하여 d가 가리킴
+c = ['a', 'b', 'c']
+d = c[:]
+
+print(c)
+print(d)
+
+c[0]='hello'
+
+print(c)
+print(d)
