@@ -42,13 +42,16 @@ while n <= a*a:
           n+=1 #n 1씩 증가
 '''
 a = int(input("숫자입력:"))
-
 n=1
-
-while n <= a*a:
-          
-          print(n,end=' ')
-
-          if n % a == 0:
-                    print();
-          n+=4
+while n <= a:
+     print(" ", end=" ")
+     n2=0
+     while n2 < a:
+        if n2 <= a:
+           print(n + n2 * a, end=" ")
+        eles
+           print(n + n2 * a, end=" ")
+      n2+=1
+  n+=1
+  print(" ") 
+        
