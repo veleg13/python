@@ -1,0 +1,29 @@
+import random
+st=0
+c=0
+a=[]
+
+while len(a)<3:
+             r=str(random.randint(0,9))
+             if not(r in a):
+                          a.append(r)
+while st < 3 :
+             st=0
+             
+             ba=0
+             o=0
+             r=str(input('세 개의 숫자를 입력하시오:'))
+             for i in range(0,3):
+                          for x in range(0,3):
+                                       if r[i]==a[x] and i==x:
+                                                    st+=1
+                                       elif r[i]==a[x] and i!=x:
+                                                    ba+=1
+             o=3-(ba+st)
+             print(f'스트라이크:{st}, 볼:{ba}, 아웃:{o}')
+             c+=1
+print("정답입니다 시도 횟수:",c)
+'''
+#다음주 문제
+컴퓨터와 7전4승 가위바위보 프로그램
+'''
